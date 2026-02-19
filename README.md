@@ -1,43 +1,50 @@
-🌍 Lingo – Universal Language Translator
+🌍 Lingua– Universal Language Translator
+📌 Project Overview
 
-A modern and responsive Universal Language Translation Web Application that allows users to translate text between all supported global languages. The application provides real-time translation with additional usability features such as text-to-speech, copy functionality, dark mode, and a smooth user experience.
+Lingua– Universal Language Translator is a modern, responsive web application designed to translate text between all supported global languages in real time. The application focuses on performance, usability, and a clean user interface while offering enhanced features such as text-to-speech, clipboard copy functionality, and seamless language switching.
 
-🔗 Live URL:
-https://lingo-universal-translator.lovable.app
+🔗 Live Application:
+https://lingua-universal-translator.lovable.app
 
-🚀 Features
+🚀 Key Features
+🌐 Translation Capabilities
 
-🌐 Translate between all supported languages
+Translate between all supported global languages
 
-🔎 Auto-detect source language
+Automatic source language detection
 
-📝 Large input text area
+Fast and accurate real-time translation
 
-🔄 Swap source and target languages
+🧑‍💻 User Experience Enhancements
 
-📋 Copy translated text to clipboard
+Large and clear text input area
 
-🔊 Text-to-Speech for translated output
+Swap source and target languages instantly
 
-⏳ Loading indicator while translating
+Copy translated text to clipboard
 
-⚠️ Error handling for empty input and API failures
+Text-to-Speech for translated output
 
-📱 Fully responsive (Mobile + Desktop)
+Loading indicator during translation
 
-🛠 Tech Stack
+Proper error handling for empty input and API failures
 
-⚛️ React
+Fully responsive design (Mobile & Desktop compatible)
 
-🟦 TypeScript
+🛠 Technology Stack
+Frontend
 
-⚡ Vite
+React – Component-based UI development
 
-🎨 Tailwind CSS
+TypeScript – Type safety and maintainability
 
-🧩 shadcn-ui
+Vite – Fast development build tool
 
-📂 Project Setup (Local Development)
+Tailwind CSS – Utility-first styling framework
+
+shadcn-ui – Modern UI components
+
+⚙️ Local Development Setup
 1️⃣ Clone the Repository
 git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
@@ -49,25 +56,34 @@ npm install
 npm run dev
 
 
-The application will run with hot-reload enabled.
+The application will start with hot-reload enabled for instant preview during development.
 
-Make sure API keys are not exposed publicly.
+🔐 Environment Configuration
 
-⚙️ How It Works
+Ensure API keys are securely stored using environment variables.
 
-User enters text into the input field.
+Example .env configuration:
+
+VITE_API_KEY=your_translation_api_key_here
+
+
+⚠️ Do not expose API keys publicly or commit them to version control.
+
+🔄 Application Workflow
+
+The user enters text into the input field.
 
 Selects source and target languages.
 
 Clicks the Translate button.
 
-The application sends a request to the translation API.
+A request is sent to the translation API.
 
-The translated text is returned and displayed instantly.
+The translated response is returned and displayed instantly.
 
 🚀 Deployment
 
-The project can be deployed using platforms such as:
+This project can be deployed on modern hosting platforms such as:
 
 Vercel
 
@@ -77,16 +93,18 @@ Render
 
 Railway
 
-Ensure environment variables are configured in your deployment settings.
+Ensure environment variables are properly configured in your deployment platform before publishing.
 
-📌 Future Enhancements
+📈 Future Enhancements
 
-Save translation history
+Translation history tracking
 
-User authentication
+User authentication system
 
-File/document translation
+File and document translation support
 
-Speech-to-text input
+Speech-to-text input integration
+
+AI-powered contextual translation improvements
 
 AI-based contextual translation improvements
