@@ -8,7 +8,7 @@ export async function translateText(
   sourceLang: string,
   targetLang: string
 ): Promise<TranslationResult> {
-  const from = sourceLang === "auto" ? "" : sourceLang;
+  const from = sourceLang === "auto" ? "autodetect" : sourceLang;
   const langpair = `${from}|${targetLang}`;
 
   const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${encodeURIComponent(langpair)}`;
