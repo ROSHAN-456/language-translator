@@ -1,73 +1,92 @@
-# Welcome to your Lovable project
+🌍 Lingo – Universal Language Translator
 
-## Project info
+A modern and responsive Universal Language Translation Web Application that allows users to translate text between all supported global languages. The application provides real-time translation with additional usability features such as text-to-speech, copy functionality, dark mode, and a smooth user experience.
 
-**URL**:https://lingo-universal-translator.lovable.app
+🔗 Live URL:
+https://lingo-universal-translator.lovable.app
 
-## How can I edit this code?
+🚀 Features
 
-There are several ways of editing your application.
+🌐 Translate between all supported languages
 
-**Use Lovable**
+🔎 Auto-detect source language
 
-Simply visit the [Lovable Project](https://lingo-universal-translator.lovable.app) and start prompting.
+📝 Large input text area
 
-Changes made via Lovable will be committed automatically to this repo.
+🔄 Swap source and target languages
 
-**Use your preferred IDE**
+📋 Copy translated text to clipboard
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔊 Text-to-Speech for translated output
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+⏳ Loading indicator while translating
 
-Follow these steps:
+⚠️ Error handling for empty input and API failures
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+📱 Fully responsive (Mobile + Desktop)
+
+🛠 Tech Stack
+
+⚛️ React
+
+🟦 TypeScript
+
+⚡ Vite
+
+🎨 Tailwind CSS
+
+🧩 shadcn-ui
+
+📂 Project Setup (Local Development)
+1️⃣ Clone the Repository
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+2️⃣ Install Dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3️⃣ Start Development Server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The application will run with hot-reload enabled.
 
-**Use GitHub Codespaces**
+Make sure API keys are not exposed publicly.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+⚙️ How It Works
 
-## What technologies are used for this project?
+User enters text into the input field.
 
-This project is built with:
+Selects source and target languages.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Clicks the Translate button.
 
-## How can I deploy this project?
+The application sends a request to the translation API.
 
-Simply open [Lovable](https://lingo-universal-translator.lovable.app) and click on Share -> Publish.
+The translated text is returned and displayed instantly.
 
-## Can I connect a custom domain to my Lovable project?
+🚀 Deployment
 
-Yes, you can!
+The project can be deployed using platforms such as:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Vercel
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Netlify
+
+Render
+
+Railway
+
+Ensure environment variables are configured in your deployment settings.
+
+📌 Future Enhancements
+
+Save translation history
+
+User authentication
+
+File/document translation
+
+Speech-to-text input
+
+AI-based contextual translation improvements
