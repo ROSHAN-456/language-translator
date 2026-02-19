@@ -50,13 +50,16 @@ shadcn-ui – Modern UI components
 ⚙️ Local Development Setup
 
 1️⃣ Clone the Repository
+
 git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
 
 2️⃣ Install Dependencies
+
 npm install
 
 3️⃣ Start Development Server
+
 npm run dev
 
 
