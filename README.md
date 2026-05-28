@@ -1,7 +1,7 @@
-🌍 Lingua – Universal Language Translator
+🌍 LinguaX – Universal Language Translator
 📌 Project Overview
 
-Lingua – Universal Language Translator is a modern, responsive web application designed to translate text between all supported global languages in real time.
+LinguaX – Universal Language Translator is a modern, responsive web application designed to translate text between all supported global languages in real time.
 
 The application focuses on performance, usability, and a clean user interface while offering enhanced features such as text-to-speech, clipboard copy functionality, and seamless language switching.
 
